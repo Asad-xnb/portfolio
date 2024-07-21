@@ -371,8 +371,9 @@ article .icon {
 
 .project-img {
   border-radius: 2rem;
-  width: 90%;
-  height: 90%;
+  width: 300px; /* Set to your desired fixed width */
+  height: 300px; /* Set to your desired fixed height */
+  object-fit: cover;
 }
 
 .project-title {
